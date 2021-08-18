@@ -1,0 +1,54 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #3d405b;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: #81b29a;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+} */
+
+
+/* fixed and sticky */
+
+
+/*T R A N S I T I O N S...*/
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: background-color 2s;
+    margin-left: 500px;
+    transition: margin-left 3s;
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+    /* transition: background-color 2s; */
+}

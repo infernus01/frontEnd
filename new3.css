@@ -1,0 +1,52 @@
+#one {
+    border-color: tomato;
+    border-width: 2px;
+    border-style: groove;
+    background-color: teal;
+    box-sizing: border-box;
+}
+
+#two {
+    border-style: inset;
+    border-color: violet;
+    border-width: 3px;
+    background-color: wheat;
+    box-sizing: border-box;
+}
+
+#three {
+    border-width: 5px;
+    border-style: outset;
+    border-color: lawngreen;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+h1 {
+    width: 200px;
+    background-color: lightslategray;
+    display: inline;
+    border: 3px solid black;
+}
+
+button {
+    background-color: lightsteelblue;
+    padding: 40px;
+    border-style: outset;
+    border-radius: 5px;
+    border-width: 20px;
+    border-color: lime;
+    margin: 4px;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 2px solid black;
+    display: block;
+}

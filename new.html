@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Welcome to the course</h1>
+    <h2>Welcome to the course</h2>
+    <h3 style="border-radius: 0vw;">Welcome to the course</h3>
+    <h4>Welcome to the course</h4>
+    <h5>Welcome to the course</h5>
+    <!--This is how we use comments in html-->
+    <p> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> <i> Sunt eos architecto doloribus alias exercitationem, commodi modi dolorum, temporibus necessitatibus quidem at culpa eveniet illum quas suscipit corrupti!</i> <small> Nisi nam adipisci accusantium dicta perspiciatis commodi soluta doloremque nihil </small>        10 <sup>2</sup> 10 <sub>2</sub> repellat vel fugit consequatur fugiat suscipit, voluptatum temporibus dolorum facere. Sequi, ut consectetur!</p>
+    <hr>
+    <h2>list</h2>
+    <ul>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+        <li>milk</li>
+
+    </ul>
+    <hr>
+    <h2>maggie</h2>
+    <ol type="i">
+        <!--Replace i with A for alphabetical order-->
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+        <li>Add some
+            <ul>
+                <li>Peas</li>
+                <li>Peas</li>
+                <li>Peas</li>
+                <li>Peas</li>
+                <li>Peas</li>
+                <li>Peas</li>
+                <li>Peas</li>
+            </ul>
+        </li>
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+        <li>boil afjffjnjfn</li>
+
+    </ol>
+    <hr>
+    <a href="https://www.google.com" target="_">Google</a>
+    <hr>
+    <a href="html2.html">Page2</a>
+    <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">
+        <h2>Youtube</h2>
+    </a>
+    <hr>
+    <img src="images.jpeg" alt="This is an image" width="500" height="600" s>
+    <hr>
+    <video src="Video.mp4" alt="This is a video" controls loop muted poster="images.jpeg"></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2QR11oDukn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>theory</th>
+                <th>practical</th>
+                <th>total</th>
+                <th>grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Enlgihs</td>
+                <td>75</td>
+                <td>-</td>
+                <td>75</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>77</td>
+                <td>-</td>
+                <td>77</td>
+                <td>B1</td>
+            </tr>
+            <tr>
+                <td>Chem</td>
+                <td>48</td>
+                <td>21</td>
+                <td>69</td>
+                <td>B2</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>53</td>
+                <td>17</td>
+                <td>70</td>
+                <td>B2</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>73</td>
+                <td>-</td>
+                <td>73</td>
+                <td>B1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result:Pass</th>
+        </tfoot>
+    </table>
+    <form action="/tacos">
+        <label for="username">Enter a username:</label>
+        <input id="username" type="email" placeholder="username">
+        <p>
+            <label for="number">Enter a number:</label>
+            <input type="number" id="nunmber" placeholder="enter a number">
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input type="color" id="color" placeholder="">
+        </p>
+        <p>
+            <label for="password">Enter the password:</label>
+
+            <input type="password" id="password" minlength="2" maxlength="10" required placeholder="password">
+        </p>
+        <p>
+            <label for="URL">URL: </label>
+            <input type="url" id="url" required placeholder="type url">
+        </p>
+        <p>
+            <label for="cheese">Amount of cheese:</label>
+            <input type="range" id="cheese" min="0" max="100" value="75" minlength="40" maxlength="70" required name="SELECT">
+        </p>
+        <p>
+            <label for="time">Enter time:</label>
+            <input type="time" id="time">
+        </p>
+        <label for="peas">Do ya like it?</label>
+        <input type="checkbox" name="yes" id="cheese" required>
+        <button style="background: aqua;">SUBMIT</button>
+
+    </form>
+    <hr>
+    <button>SUBMIT</button>
+    <!-- OUTSIDE OF A FORM -->
+    <form action="https:/www.google.com/search">
+        <input type="text" name="q">
+        <button>SEARCH</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>SEARCH YT</button>
+    </form>
+    <form action="/birds">
+        <label for="agree">I Agree</label>
+        <input type="checkbox" name="agree" id="agree">
+        <button>SUBMIT</button>
+    </form>
+    <form action="/sdfd">
+        <label for="radio">X:S</label>
+        <input type="radio" name="size">
+        <input type="radio" name="size">
+        <input type="radio" name="size">
+        <input type="radio" name="size">
+        <label for="">SELECT AN ENTRY:</label>
+        <select name="meal" id="meal">
+        <option value="fish">fish</option>
+        <option value="veg">vegetarian</option>
+        <option value="steak">steak</option>
+        <option value="chicken">chicken</option>
+    </select>
+        <p>
+            <textarea name="" id="requests" cols="30" rows="10"></textarea>
+        </p>
+        <hr>
+        <br>
+        <label for="select">Select a rece:</label>
+        <select name="race" id="full">
+<option value="race1">full</option>
+<option value="race2">half</option>
+</select>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgb(12, 3, 19);
+    background-color: blueviolet;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: white underline;
+}
+
+body {
+    background-color: lightpink;
+}
+
+h3 {
+    color: blanchedalmond;
+    background-color: black;
+    font-size: 100px;
+}
+
+p {
+    background-color: brown;
+    text-decoration: underline wavy;
+    line-height: 2;
+    letter-spacing: 10px;
+}
+
+button {
+    color: chartreuse;
+    background-color: black;
+}
